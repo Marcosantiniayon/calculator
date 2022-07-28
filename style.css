@@ -14,7 +14,6 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: rgb(150, 150, 150);
     width: 400px;
     height: 600px;
     border: 2px solid;
@@ -32,24 +31,30 @@ body{
     align-items: center;
     justify-content: center;
     background-color: rgb(255, 255, 255);
-    width: 85%;
+    width: 80%;
     height: 20%;
     border: 2px solid;
+    padding-right: 20px;
 }
 
 .operations, .result{
     background-color: rgb(255, 255, 255);
     width: 100%;
-    /* padding: 8px; */
-    /* border: 2px solid; */
+    text-align: right;
+    justify-self: center;
 }
 
 .operations{
-    height: 25%;
+    height: 35%;
+    padding-top: 10px;
+    color: rgba(61, 61, 61, 0.665);
 }
 
 .result{
-    height: 75%;
+    height: 65%;
+    padding-top: 20px;
+    font-size:xx-large;
+    color: rgb(61, 61, 61);
 }
 
 .buttons{
