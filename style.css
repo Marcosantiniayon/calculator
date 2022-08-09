@@ -47,14 +47,13 @@ body{
 .operations{
     height: 35%;
     padding-top: 10px;
-    color: rgba(61, 61, 61, 0.665);
+    color: rgb(93, 93, 93);
 }
 
 .result{
     height: 65%;
     padding-top: 20px;
     font-size:xx-large;
-    color: rgb(61, 61, 61);
 }
 
 .buttons{
@@ -109,4 +108,10 @@ body{
 }
 .operatorBtn{
     background-color: rgb(74, 74, 74);
+}
+.clearBtn{
+    font-size: 1em;
+}
+.deleteBtn{
+    font-size: x-large;
 }
